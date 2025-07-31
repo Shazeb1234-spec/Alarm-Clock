@@ -51,9 +51,8 @@ public class App {
                 
                 System.out.println("Someone has interrupted the program...");
                 Thread.currentThread().interrupt();
-                scanner.close();
             }
-
+            scanner.close();
         }
 
 
